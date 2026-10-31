@@ -25,27 +25,27 @@ The project demonstrates full-stack web development concepts including frontend-
 
 ## Features
 
-Order Tracking
+- Order Tracking
 
-Customer Lookup
+- Customer Lookup
 
-Billing Lookup
+- Billing Lookup
 
-Order History
+- Order History
 
-Latest Order Search
+- Latest Order Search
 
-FAQ Support
+- FAQ Support
 
-Intent Recognition
+- Intent Recognition
 
-Entity Extraction
+- Entity Extraction
 
-Interactive Chat Interface
+- Interactive Chat Interface
 
-Analytics Dashboard
+- Analytics Dashboard
 
-Responsive User Interface
+- Responsive User Interface
 
 ---
 
