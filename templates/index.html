@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova AI Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <div class="chat-container">
+
+            <div class="chat-header">
+
+                <div class="header-left">
+                    <div class="logo">🤖</div>
+
+                    <div>
+                        <h1>Nova AI Assistant</h1>
+                        <p>Customer Support Intelligence Platform</p>
+                    </div>
+                </div>
+
+                <div class="status-badge">
+                    ● Online
+                </div>
+
+            </div>
+
+            <div class="dashboard">
+
+                <div class="stat-card">
+                    <span>👥</span>
+                    <h3>{{ stats.customers }}</h3>
+                    <p>Customers</p>
+                </div>
+
+                <div class="stat-card">
+                    <span>📦</span>
+                    <h3>{{ stats.orders }}</h3>
+                    <p>Orders</p>
+                </div>
+
+                <div class="stat-card">
+                    <span>📚</span>
+                    <h3>{{ stats.faqs }}</h3>
+                    <p>FAQs</p>
+                </div>
+
+                <div class="stat-card">
+                    <span>💳</span>
+                    <h3>{{ stats.open_balances }}</h3>
+                    <p>Open Balances</p>
+                </div>
+
+            </div>
+
+            <div class="welcome-banner">
+                <h2>Welcome to Nova Services</h2>
+
+                <p>
+                    Track orders, check billing information,
+                    view customer details, and get support assistance.
+                </p>
+            </div>
+
+            <div id="chat-box">
+
+                <div class="welcome-actions">
+
+                    <h3>✨ Try These Examples</h3>
+
+                    <div class="action-grid">
+
+                        <div class="action-card" onclick="quickMessage('ORD102')">
+                            <span>📦</span>
+                            <h4>Track Order</h4>
+                            <p>Check order status</p>
+                        </div>
+
+                        <div class="action-card" onclick="quickMessage('customer C001')">
+                            <span>👤</span>
+                            <h4>Customer Lookup</h4>
+                            <p>Find customer details</p>
+                        </div>
+
+                        <div class="action-card" onclick="quickMessage('orders C001')">
+                            <span>📋</span>
+                            <h4>Order History</h4>
+                            <p>View all customer orders</p>
+                        </div>
+
+                        <div class="action-card" onclick="quickMessage('balance C001')">
+                            <span>💳</span>
+                            <h4>Billing Summary</h4>
+                            <p>Check account balance</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="input-area">
+
+                <input type="text" id="message-input" placeholder="Ask Nova anything...">
+
+                <button onclick="sendMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

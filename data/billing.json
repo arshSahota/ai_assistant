@@ -1,0 +1,27 @@
+[
+  {
+    "customer_id": "C001",
+    "outstanding_balance": 49.99,
+    "last_payment_date": "2026-10-05"
+  },
+  {
+    "customer_id": "C002",
+    "outstanding_balance": 0,
+    "last_payment_date": "2026-10-10"
+  },
+  {
+    "customer_id": "C003",
+    "outstanding_balance": 19.99,
+    "last_payment_date": "2026-10-08"
+  },
+  {
+    "customer_id": "C004",
+    "outstanding_balance": 0,
+    "last_payment_date": "2026-10-11"
+  },
+  {
+    "customer_id": "C005",
+    "outstanding_balance": 89.50,
+    "last_payment_date": "2026-10-03"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "Sarah Johnson"
+  },
+  {
+    "customer_id": "C002",
+    "name": "Michael Davis"
+  },
+  {
+    "customer_id": "C003",
+    "name": "Emily Chen"
+  },
+  {
+    "customer_id": "C004",
+    "name": "James Wilson"
+  },
+  {
+    "customer_id": "C005",
+    "name": "Olivia Brown"
+  },
+  {
+    "customer_id": "C006",
+    "name": "Daniel Martinez"
+  },
+  {
+    "customer_id": "C007",
+    "name": "Sophia Lee"
+  },
+  {
+    "customer_id": "C008",
+    "name": "William Taylor"
+  }
+]
